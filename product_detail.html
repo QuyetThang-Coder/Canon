@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='shortcut icon' href='./img/favicon.ico'/>
+    <title>Product detail - Canon VietNam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./icon/FontAwesome.Pro.5.15.4.Web/css/all.min.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/product_detail.css">
+</head>
+<body>
+    <div id="main">
+        <!-- Header -->
+        <div id="header">
+            <div class="header">
+                <!-- Header-top -->
+                <div class="header_top">
+                    <div class="grid wide">
+                        <div class="header_top__location row">
+                            <!-- mobile bar-->
+                            <label for="mobile_bar-checkbox" class="header_mobile-bar col l-0 m-0 c-2">
+                                <i class="bar_icon far fa-bars"></i>
+                            </label>
+                            <input type="checkbox" id="mobile_bar-checkbox" class="mobile_bar-checkbox l-0 m-0">
+                            <!-- side bar -->
+                            <div class="header_side-bar l-0 m-0 c-12">
+                                <div class="header_side-bar-search">
+                                    <input type="text" id="mobile_bar-search" placeholder="Tìm kiếm">
+                                    <label for="mobile_bar-search" class="lb_mobile_bar-search">
+                                        <i class="fal fa-search"></i>
+                                    </label>
+                                </div>
+                                <ul>
+                                    <li><a href="./index.html">Trang chủ</a></li>
+                                    <li><a href="./product.html">Các sản phẩm</a></li>
+                                    <li><a href="./services.html">Dịch vụ</a></li>
+                                    <li><a href="./contact.html">Liên hệ</a></li>
+                                    <li><a href="./compare.html">So sánh</a></li>
+                                    <li><a href="#">Yêu thích</a></li>
+                                    <li><a href="./login.html">Đăng nhập</a></li>
+                                </ul>
+                            </div>
+                            <!-- Logo -->
+                            <div class="header_logo col l-2 m-2 c-4">
+                                <a href="./index.html"></a>
+                                <img src="./img/logo-Canon-vietnam.png" alt="">
+                            </div>
+                            <!-- cart mobile -->
+                            <div class="header_mobile-cart col l-0 m-0 c-2">
+                                <i class="far fa-shopping-cart"></i>
+                            </div>
+                            <!-- header bottom -->
+                            <div class="header_center col l-6 m-6 c-0">
+                                <div class="header_center-content row">
+                                    <div class="header_center-content--text l-3 m-3">
+                                        <a href="./index.html">Trang chủ</a>
+                                    </div>
+                                    <div class="header_center-content--text l-3 m-3">
+                                        <a href="./product.html">Các sản phẩm</a>
+                                    </div>
+                                    <div class="header_center-content--text l-3 m-3">
+                                        <a href="./services.html">Dịch vụ</a>
+                                    </div>
+                                    <div class="header_center-content--text l-3 m-3">
+                                        <a href="./contact.html">Liên hệ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="col l-4 m-4 c-0">
+                                <div class="header_right row">
+                                    <div class="header_right-search l-9 m-10">
+                                        <input type="text" placeholder="Tìm kiếm">
+                                        <i class="fal fa-search"></i>
+                                    </div>
+                                    <div class="header_right-cart l-3 m-2">
+                                        <i class="far fa-shopping-cart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Header-bottom -->
+                <div class="header_bottom">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col l-3 m-3 c-12">
+                                <div class="header_bottom-left">
+                                    <p>Canon</p>
+                                    <p class="header_bottom-left-slogan"></p>
+                                </div>
+                            </div>
+                            <div class="col l-9 m-9 c-0">
+                                <div class="header_bottom-right row">
+                                    <div class="header_bottom-right--content l-2 l-o-6 m-2 m-o-6">
+                                        <a href="./compare.html" class="header_bottom-right-icon"><i class="fal fa-copy"></i></a>
+                                        <a href="./compare.html" class="header_bottom-right-text">So sánh</a>
+                                    </div>
+                                    <div class="header_bottom-right--content l-2 m-2">
+                                        <a href="#" class="header_bottom-right-icon"><i class="fas fa-heart"></i></a>
+                                        <a href="#" class="header_bottom-right-text">Yêu thích</a>
+                                    </div>
+                                    <div class="header_bottom-right--content l-2 m-2">
+                                        <a href="./login.html" class="header_bottom-right-icon"><i class="fas fa-user-alt"></i></a>
+                                        <a href="./login.html" class="header_bottom-right-text">Đăng nhập</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Body -->
+        <div id="body">
+            <div class="body">
+                <div class="product_info">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="product_info_left col l-7 m-7 c-12">
+                                <img src="./img/camara/travel_camera/PowerShot_G5_X.png" alt="">
+                            </div>
+                            <div class="product_info_right col l-5 m-5 c-12">
+                                <div class="product_info_right-content ">
+                                    <h2 class="name_product">PowerShot G5 XD</h2>
+                                    <h2 class="price_product">17,900,000₫</h2>
+                                    <div class="quantity_product">
+                                        <p for="" class="reduction">-</p>
+                                        <input type="number" value="1" readonly>
+                                        <p for="" class="increase">+</p>
+                                    </div>
+                                    <div class="cart_product">
+                                        <i class="far fa-shopping-cart"></i>
+                                        <p for="">Add to cart</p>
+                                    </div>
+                                    <div class="like_product">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_info_detail">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col l-12 m-12 c-12 title_info ">
+                                <p id="button_info_overview" class="button_tab tab_select" onclick=" openTab(event,'info_overview')">Tổng quan</p>
+                                <p id="button_info_specification" class="button_tab" onclick=" openTab(event, 'info_specification')">Đặc điểm kỹ thuật</p>
+                                <p id="button_info_feature" class="button_tab" onclick=" openTab(event, 'info_feature')">Tính năng</p>
+                            </div>
+                            <div id="info_overview" class="col l-12 m-12 info_overview tab">
+                                <h2 class="slogan">Ống ngắm điện tử EVF với độ nét cao cho việc tạo hình tốt hơn</h2>
+                                <p class="title">Được trang bị ống ngắm EVF với độ nét cao và màn hình điều khiển LCD cảm ứng xoay lật, G5 X chính là chiếc máy ảnh du lịch cao cấp cho bạn tận hưởng sự tự do với mọi phong cách chụp hình. Với cảm biến hình ảnh 20,2-megapixel 1.0 inch, bộ xử lý DIGIC 6, khẩu độ f/1.8-2.8, và ống zoom 4.2x, chiếc máy ảnh này đã đánh bật mọi máy ảnh smartphone về mặt chất lượng hình ảnh. Chiếc máy ảnh này còn được trang bị dây cầm tay lớn cho việc cầm máy an toàn hơn và các vòng điều chỉnh thiết lập nhanh, tiện lợi cho phép bạn chỉnh thiết lập ngay khi đang ngắm đối tượng qua ống ngắm.</p>
+                                <ul>
+                                    <li>Cảm biến CMOS 1.0 inch và ống zoom quang học 4.2x (24-100mm)</li>
+                                    <li>Ống ngắm EVF với 2,360,000-điểm ảnh và màn hình cảm ứng LCD xoay lật 3.0"</li>
+                                    <li>Quay phim full HD 60p, tương thích với định dạng MP4. Hỗ trợ chức năng Tự động cân bằng (Auto Level)</li>
+                                </ul>
+                            </div>
+                            <div id="info_specification" class="col l-12 m-12 info_specification tab">
+                                <table class="">
+                                    <tr class="">
+                                      <th>Chế độ AF</th>
+                                      <td>One-Shot AF, AI Servo AF, Manual</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Lựa chọn điểm AF</th>
+                                      <td>Automatic selection, Manual selection</td>
+                                    </tr>
+                                    <tr>
+                                      <th>Số Điểm Hệ Thống AF</th>
+                                      <td>Max. 5,655 selectable AF point positions / Up to 143 AF areas (auto selection) </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Built-in Flash</th>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Chọn Khoảng Cách Lấy Nét Gần Nhất (cm)</th>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Tốc Độ Chụp Liên Tục (số tấm mỗi giây) (Tối đa)</th>
+                                        <td>8 (One-Shot AF) / 5 (Servo AF)</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Zoom Số</th>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Kích Thước (Không Kể Phần Nhô Ra) (mm) (Xấp Xỉ)</th>
+                                        <td>135.8 x 98.3 x 84.4</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div id="info_feature" class="col l-12 m-12 info_feature tab">
+                                <div class="grid wide">
+                                    <div class="row">
+                                        <div class="col l-4 m-12 feature">
+                                            <div class="feature_detail">
+                                                <h2>Ngắm mọi góc độ khung hình với ống ngắm EVF có độ nét cao, thân thiện với người dùng</h2>
+                                                <p>Ống ngắm điện tử trở nên vô cùng tiện dụng trong điều kiện ánh sáng chói lọi khiến bạn khó có thể nhìn thấy đối tượng trên màn hình LCD. Ống ngắm EVF với độ nét cao loại 0.39” được tích hợp màn hình LED hữu cơ với 2.360.000 điểm ảnh sẽ hiển thị khung cảnh với một hệ thống gam màu rộng hơn và độ tương phản cao giúp bạn hình dung kết quả hình ảnh tốt hơn. 
+                                                Khả năng hiển thị độ nét cao này, cùng với khả năng phóng to hình ảnh chụp lên đến 10x, giúp việc lấy nét chính xác ở chế độ MF trở nên dễ dàng hơn. Thiết lập chế độ "Fast" Display và tỷ lệ refresh cao tới 120 fps đảm bảo dễ dàng chụp được các đối tượng chuyển động nhanh với khoảng thời gian trễ cực thấp.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col l-4 m-12 feature">
+                                            <div class="feature_detail">
+                                                <h2>Các vòng điều khiển cho việc vận hành máy ảnh nhanh chóng, dễ dàng</h2>
+                                                <p>Khả năng vận hành cao cũng là một điểm mạnh của PowerShot G5 X. Ngoài vòng điều khiển chế độ chụp, chiếc máy ảnh này còn được thiết kế vòng điều khiển bù sáng ở phía trên bên phải, vòng điều khiển phía trước gần phím chụp và một vòng điều khiển ở phía sau. Các vòng điều khiển này được thiết kế phục vụ mục đích thiết lập bằng một tay, dễ dàng điều chỉnh chỉ với một động tác gẩy tay. Tay còn lại có thể điều chỉnh ống zoom, giống như khi sử dụng máy ảnh EOS. Các vòng điều khiển này cũng được ứng dụng mô-men xoắn tối ưu cho hoạt động chính xác, mượt mà và giữ yên lặng ở chế độ quay phim.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col l-4 m-12 feature">
+                                            <div class="feature_detail">
+                                                <h2>Màn hình LCD xoay lật cho bạn dễ dàng tận hưởng các tính năng chụp hình</h2>
+                                                <p>Màn hình LCD xoay lật giúp bạn chụp ảnh “tự sướng” một mình cũng như tập thể thuận tiện hơn PowerShot G5 X được tích hợp chế độ Self Portrait nâng cấp. Ở chế độ này, bạn có thể chọn năm mức độ sáng 'Brightness' và mịn da 'Smooth Skin' cũng như điều chỉnh khẩu độ để thay đổi mức độ làm mờ nền
+                                                    Tính năng Auto Level tiện lợi sẽ bù độ nghiêng cho máy, cho phép bạn quay phim khi đang di chuyển hay không nhìn vào màn hình. Bạn cũng hoàn toàn có thể quay phim chỉnh tay, với các định dạng tương thích bao gồm MP4 Full HD 60p, cũng như PAL.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_similar">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col l-12 m-12 c-0 product_similar_title">
+                                <h2>Sản phẩm tương tự</h2>
+                            </div>
+                            <!-- product -->
+                            <div class="col l-3 m-3 c-0 list_product">
+                                <div class="list_product_detail">
+                                    <div class="product_img">
+                                        <img src="./img/camara/travel_camera/PowerShot_SX430_IS.png" alt="">
+                                    </div>
+                                    <h2>PowerShot SX430 IS</h2>
+                                    <p>10,000,000₫</p>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 c-0 list_product">
+                                <div class="list_product_detail">
+                                    <div class="product_img">
+                                        <img src="./img/camara/travel_camera/PowerShot_SX430_IS.png" alt="">
+                                    </div>
+                                    <h2>PowerShot SX430 IS</h2>
+                                    <p>10,000,000₫</p>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 c-0 list_product">
+                                <div class="list_product_detail">
+                                    <div class="product_img">
+                                        <img src="./img/camara/travel_camera/PowerShot_SX430_IS.png" alt="">
+                                    </div>
+                                    <h2>PowerShot SX430 IS</h2>
+                                    <p>10,000,000₫</p>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-3 c-0 list_product">
+                                <div class="list_product_detail">
+                                    <div class="product_img">
+                                        <img src="./img/camara/travel_camera/PowerShot_SX430_IS.png" alt="">
+                                    </div>
+                                    <h2>PowerShot SX430 IS</h2>
+                                    <p>10,000,000₫</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div id="footer">
+            <div class="footer">
+                <div class="grid wide">
+                    <div class="footer_return">
+                        <a href="#" class="footer_return-icon l-0 m-0"><i class="far fa-angle-up"></i></a>
+                    </div>
+                    <div class="footer_location row">
+                        <div class="footer_content col l-2 m-2 c-12">
+                            <label for="checkbox_company">
+                                <h3>Công ty</h3>
+                            </label>
+                            <input type="checkbox" id="checkbox_company" class="checkbox_company l-0 m-0">
+                            <div class="footer_content-content">
+                                <ul>
+                                    <li><a href="./contact.html">Về chúng tôi</a></li>
+                                    <li><a href="#">Trách nhiệm xã hội doanh nghiệp</a></li>
+                                    <li><a href="#">Trang mạng xã hội chính thức</a></li>
+                                    <li><a href="#">Tin tức và ấn phẩm</a></li>
+                                    <li><a href="#">Sự kiện</a></li>
+                                    <li><a href="#">Quy định sử dụng</a></li>
+                                    <li><a href="#">Chính sách bảo mật</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer_content col l-2 m-2 c-12">
+                            <label for="checkbox_products">
+                                <h3>Các sản phẩm</h3>
+                            </label>
+                            <input type="checkbox" id="checkbox_products" class="checkbox_products l-0 m-0">
+                            <div class="footer_content-content">
+                                <ul>
+                                    <li><a href="./camara/mobile_app.html">Máy ảnh</a></li>
+                                    <li><a href="./printer/inkjet.html">Máy in</a></li>
+                                    <li><a href="./scanner/glass.html">Máy scan</a></li>
+                                    <li><a href="./videography/videography.html">Máy quay phim</a></li>
+                                    <li><a href="./projector/projector.html">Máy chiếu</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer_content col l-2 m-2 c-12">
+                            <label for="checkbox_services">
+                                <h3>Dịch vụ</h3>
+                            </label>
+                            <input type="checkbox" id="checkbox_services" class="checkbox_services l-0 m-0">
+                            <div class="footer_content-content">
+                                <ul>
+                                    <li><a href="#">Nơi mua</a></li>
+                                    <li><a href="#">Chống hàng giả</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer_content col l-2 m-2 c-12">
+                            <label for="checkbox_support">
+                                <h3>Hỗ trợ & Tải file</h3>
+                            </label>
+                            <input type="checkbox" id="checkbox_support" class="checkbox_support l-0 m-0">
+                            <div class="footer_content-content">
+                                <ul>
+                                    <li><a href="#">Hỗ trợ & Tải file</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer_content col l-2 m-2 c-12">
+                            <div class="footer_content-society">
+                                <i class="far fa-globe-americas l-0 m-0"></i>
+                                <h3>Các trang Canon khác</h3>
+                            </div>
+                            <div class="footer_society">
+                                <a href="#" class="society"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="society"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="society"><i class="fab fa-youtube"></i></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Javascrip -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".header_bottom-left-slogan",{
+            strings: ["","Việt Nam","- We bring the best solutions !"],
+            typeSpeed:60,
+            backSpeed:60,
+            loop:true
+        });
+    </script>
+    <script>
+        function openTab(evt, tabName) {
+            var i;
+            var x = document.getElementsByClassName("tab");
+            var y = document.getElementsByClassName("button_tab");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            for (i = 0; i < y.length; i++) {
+                y[i].className = y[i].className.replace(" tab_select", "");
+            }
+            document.getElementById(tabName).style.display = "block";  
+            // document.getElementById("button_"+tabName).className += "tab_select";  
+            evt.currentTarget.className += " tab_select";
+        }
+        </script>
+</body>
+</html>
